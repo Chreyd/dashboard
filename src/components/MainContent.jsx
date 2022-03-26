@@ -5,6 +5,7 @@ import Earnings from "./Earnings"
 import Info from './Info';
 import Projects from "./Projects"
 import Invoices from './Invoices';
+import JoinSlack from './JoinSlack';
 
 function MainContent() {
   return (
@@ -24,9 +25,10 @@ function MainContent() {
         <SectionTwo>
           <ColumnOne2>
             <InvoiceContainer>
-              <TitleText>Your projects</TitleText>
+              <TitleText>Recent Inovoices</TitleText>
               <Invoices/>
             </InvoiceContainer>
+            <JoinSlack/>
           </ColumnOne2>
           <ColumnTwo2></ColumnTwo2>
         </SectionTwo>
