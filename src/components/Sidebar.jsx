@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Badge from './Badge';
-import AvatarImage from "../assets/avatarImage.jpeg";
+import AvatarImage from "../assets/avatarImage.jpg";
 import {darkThemeColor} from "../utils/index";
 import {RiHomeLine, RiFileCopyLine} from "react-icons/ri"
 import { FaWallet } from "react-icons/fa";
