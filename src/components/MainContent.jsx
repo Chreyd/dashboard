@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Earnings from "./Earnings"
 import Info from './Info';
 import Projects from "./Projects"
+import Invoices from './Invoices';
 
 function MainContent() {
   return (
@@ -21,7 +22,12 @@ function MainContent() {
           </ColumnTwo1>
         </SectionOne>
         <SectionTwo>
-          <ColumnOne2></ColumnOne2>
+          <ColumnOne2>
+            <InvoiceContainer>
+              <TitleText>Your projects</TitleText>
+              <Invoices/>
+            </InvoiceContainer>
+          </ColumnOne2>
           <ColumnTwo2></ColumnTwo2>
         </SectionTwo>
       </SubContainer>
@@ -36,6 +42,9 @@ const Container = styled.div`
   border-top-left-radius: 4rem;
   margin: 1rem 8rem 1rem 4rem;
  
+`;
+const InvoiceContainer = styled.div`
+  height: 60%;
 `;
  
 const SubContainer = styled.div`

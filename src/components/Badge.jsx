@@ -24,6 +24,15 @@ const Div = styled.div`
       background-color: rgba(109, 134, 245, 0.192);
     
     `}
+
+    ${({paid})=> paid && `
+      background-color: #70e00041;
+      color: #70e000
+    `}
+    ${({late})=> late && `
+      background-color: #ff595e41;
+      color: #ff595e
+    `}
 `;
 
 
