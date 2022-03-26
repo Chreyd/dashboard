@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "./Navbar";
 import styled from 'styled-components';
+import Earnings from "./Earnings"
 
 function MainContent() {
   return (
@@ -9,6 +10,7 @@ function MainContent() {
       <SubContainer>
         <SectionOne>
           <ColumnOne1>
+            <Earnings/>
           </ColumnOne1>
           <ColumnOne2></ColumnOne2>
         </SectionOne>
