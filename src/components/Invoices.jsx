@@ -55,9 +55,17 @@ const InvoicesContainer= styled.div`
     &:hover{
         box-shadow: ${hoverEffect};
     }
+    @media screen and (min-width: 320px) and (max-width: 1080px){
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
 `;
 const CardContent= styled.div`
-
+      @media screen and (min-width: 320px) and (max-width: 1080px){
+        margin: 2rem 0;
+  }
 `;
 const Invoice= styled.div`
     display: flex;
@@ -65,12 +73,20 @@ const Invoice= styled.div`
     justify-content: space-around;
     margin: 0.4rem;
     padding-top: 0.6rem;
+    @media screen and (min-width: 320px) and (max-width: 1080px){
+        flex-direction: column;
+        gap: 1rem;
+  }
 `;
 const Info= styled.div`
     display: flex;
     align-items: center;
     width: 50%;
-
+    @media screen and (min-width: 320px) and (max-width: 1080px){
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+  }
 `;
 const Avatar= styled.div`
     img{
@@ -96,6 +112,11 @@ const Container= styled.div`
     justify-content: space-between;
     width: 30%;
     align-items: center;
+    @media screen and (min-width: 320px) and (max-width: 1080px){
+    width: 100%;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
 `;
 
 export default Invoices
