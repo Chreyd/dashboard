@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {IoStatsChart} from "react-icons/io5"
-import {themeColor,hoverEffect} from "../utils";
+import {themeColor,hoverEffect} from "../utils/index";
 
 function Earnings() {
   return (
@@ -25,7 +25,7 @@ const EarningsCard= styled.div`
   border-radius: 1rem;
   color: white;
   transition: 0.4s ease-in-out;
-  a:hover{
+  &:hover{
     box-shadow: ${hoverEffect};
   }
 `;

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "./Navbar";
 import styled from 'styled-components';
 import Earnings from "./Earnings"
+import Info from './Info';
 
 function MainContent() {
   return (
@@ -11,6 +12,7 @@ function MainContent() {
         <SectionOne>
           <ColumnOne1>
             <Earnings/>
+            <Info/>
           </ColumnOne1>
           <ColumnOne2></ColumnOne2>
         </SectionOne>
